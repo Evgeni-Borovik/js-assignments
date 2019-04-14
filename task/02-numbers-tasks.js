@@ -76,7 +76,8 @@ function getDistanceBetweenPoints(x1, y1, x2, y2) {
     let distX = x2 - x1;
 	let distY = y2 - y1;
 	distX *= distX;
-	distY *= distY;
+    distY *= distY;
+    
 	return Math.sqrt(distX + distY);
 }
 
